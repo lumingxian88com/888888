@@ -7,18 +7,8 @@
     
 <script src="t39t.js"></script>
 <script>
-    var d26d = [
-       ["2026/01/06", "01", "02", "06", "11", "33"],
-       ["2026/01/05", "10", "16", "18", "34", "39"]
-    ];
-    function injectData() {
-        var target = document.getElementById('888888');
-        if (target) {
-           target.innerHTML = "<b>最後更新：</b>" + d26d[0][0] + "<br><b>今日號碼：</b>" + d26d[0].slice(1).join(", ");
-        }
-    }
-       window.onload = injectData;
- </script>
+    <div id="888888">正在讀取最新數據...</div>
+</script>
     
     <style>
         body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
@@ -46,4 +36,5 @@
 
 </body>
 </html>
+
 
